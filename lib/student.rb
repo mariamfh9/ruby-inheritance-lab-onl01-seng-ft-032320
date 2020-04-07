@@ -11,11 +11,10 @@ class Student < User
     @knowledge = []
   end 
   
-  def learn("knowledge")
-    self.knowledge.push("knowledge")
-  end 
+  def learn(string)
+    @knowledge << string
   
   def knowledge
-    #self.knowledge
+    @knowledge
   end 
 end
