@@ -9,9 +9,10 @@ class User
     @last_name
   end 
   
-  def initialize
+  def initialize(first_name, last_name)
     @knowledge = []
-    
+    @first_name = first_name
+    @last_name = last_name
   end 
   
 
