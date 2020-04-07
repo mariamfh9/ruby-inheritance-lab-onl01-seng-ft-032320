@@ -12,6 +12,10 @@ class Student < User
   end 
   
   def learn(knowledge)
-    
+    self.knowledge << knowledge
+  end 
+  
+  def knowledge
+    self.knowledge
   end 
 end
